@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/view_color_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_band"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:alpha="0.3"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/img_default_grid" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_band"
+            android:layout_alignTop="@+id/img_band"
+            android:alpha="0.0"
+            android:background="@color/grey_dark_general" />
+
+        <TextView
+            android:id="@+id/tv_band_name"
+            style="@style/TextTitle"
+            android:layout_marginTop="10dp"
+            android:lines="2"
+            android:ellipsize="middle"
+            android:padding="5dp"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tv_band_genre"
+            style="@style/TextBase.White"
+            android:layout_below="@+id/tv_band_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal" />
+
+    </RelativeLayout>
+</RelativeLayout>

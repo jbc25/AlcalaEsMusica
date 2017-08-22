@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_general">
+
+    <ImageView
+        style="@style/ImageBackground"
+        android:src="@mipmap/img_skyline" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="blocksDescendants"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_band_name"
+                    style="@style/TextTitle"
+                    android:padding="10dp" />
+
+                <ImageView
+                    android:id="@+id/img_band"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside" />
+
+                <TextView
+                    android:id="@+id/tv_band_genre"
+                    style="@style/TextBase.White"
+                    android:text="Jazz" />
+
+                <View style="@style/SeparatorHorizontal.Grey"
+                    android:layout_marginTop="10dp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_events_band"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp" />
+
+                <View style="@style/SeparatorHorizontal.Grey" />
+
+                <TextView
+                    android:id="@+id/tv_band_description"
+                    style="@style/TextBase.White"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="15dp"
+                    android:text="asdlfkjasldf asñdkfjñalsf jñlaskfj ñlaskfjñalskfjñ asfjñ asklf lñaskjlkasjdf ñlasf ñlaskf lña" />
+
+
+                <android.support.v7.widget.FitWindowsLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccentTransp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/img_facebook"
+                        style="@style/ImgSocialIcon"
+                        android:layout_marginTop="10dp"
+                        android:src="@mipmap/ic_facebook" />
+
+                    <ImageView
+                        android:id="@+id/img_twitter"
+                        style="@style/ImgSocialIcon"
+                        android:src="@mipmap/ic_twitter" />
+
+                    <ImageView
+                        android:id="@+id/img_youtube"
+                        style="@style/ImgSocialIcon"
+                        android:src="@mipmap/ic_youtube" />
+
+                    <ImageView
+                        android:id="@+id/img_bandcamp"
+                        style="@style/ImgSocialIcon"
+                        android:src="@mipmap/ic_bandcamp" />
+
+                    <ImageView
+                        android:id="@+id/img_presskit"
+                        style="@style/ImgSocialIcon"
+                        android:layout_marginBottom="10dp"
+                        android:src="@mipmap/ic_presskit" />
+
+                </android.support.v7.widget.FitWindowsLinearLayout>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">AlcalaSuena</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="friday">Viernes</string>
+    <string name="june">junio</string>
+    <string name="saturday">Sábado</string>
+    <string name="sunday">Domingo</string>
+    <string name="friday_abrev">VIE</string>
+    <string name="saturday_abrev">SAB</string>
+    <string name="sunday_abrev">DOM</string>
+    <string name="bands">Bandas</string>
+    <string name="map">Mapa</string>
+    <string name="compartir">Compartir</string>
+
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="filter">Filtrar</string>
+    <string name="search_band">Buscar banda</string>
+    <string name="no_results_found">No se han encontrado resultados para esa búsqueda</string>
+    <string name="program">Programación</string>
+    <string name="venues">Escenarios</string>
+    <string name="about_alcalasuena">#AlcalaSuena</string>
+    <string name="developed_by_insula">App y web desarrolladas como software libre por coworkers de la Ínsula Coworking</string>
+    <string name="see_on_github">Ver repositorios en GitHub</string>
+
+    <string name="text_about">
+        Vuelve en su segunda edición #UnBuenPlanParaFerias, un ciclo de conciertos programado por la Concejalía de Juventud, con la colaboración de Alcalá es Música, del 30 de agosto al 2 de septiembre en la Plaza de los Juzgados de Alcalá de Henares (conocida popularmente como Plaza de la Paloma). Se trata de un espacio al aire libre, amable y gratuito donde encontrar algunas de las mejores propuestas del panorama de música independiente, con nombres que no se acostumbran a ver en los festivales de verano, pero de una tremenda calidad.
+Como novedad, contamos con la presencia de artistas internacionales en todas las jornadas, que nos avisan de que “Los Conciertos de la Paloma” este año se han hecho mayores. Entre las novedades, además, este año se añade un día más. Se tratará de una jornada de swing para animar a todos los bailarines del Corredor del Henares, que se sumará a las jornadas de rock, ‘world music’ y música negra del pasado año. Además, se incluye un espacio de juego para niños y niñas.
+#UnBuenPlanParaFerias aterriza con una producción más potente que incluirá artistas internacionales de República Checa, Italia, Francia y Reino Unido, sin perder la presencia de grupos locales y algunas propuestas nacionales que no dejarán indiferente a los espectadores. Para la puesta en escena se mantiene el formato de un estilo diferente cada día para capricho de los melómanos de nuestra ciudad y alrededores. Todo ello, en un entorno agradable y familiar donde poder cenar o tomar una copa, acompañados de buena música en directo. </string>
+
+    <string name="see_dossier">Ver dossier</string>
+    <string name="favourites">Favoritos</string>
+    <string name="no_favourites">No has marcado de momento ningún evento como favorito para este día.\n¡A qué esperas! Pulsa la estrella y hazte tu lista ;)</string>
+    <string name="share_favs_with_friends">¡Comparte con tus amigos tu lista!</string>
+    <string name="all_tags">Todos los estilos</string>
+    <string name="share_favs_text_intro">¡Esta es mi lista de conciertos para el #AlcalaSuena!</string>
+    <string name="no_results_for_tags">En este día no hay conciertos para los estilos de música elegidos :(</string>
+    <string name="explanation_permission_location">Para utilizar el mapa necesitamos accceso al GPS. Gracias ;)</string>
+    <string name="explanation_permission_storage">Para utilizar el mapa necesitamos accceso al almacenamiento. Gracias ;)</string>
+    <string name="my_position">Mi posición</string>
+    <string name="location_not_found">No se encuentra tu posición</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="more_info">Mas información</string>
+    <string name="indications">Indicaciones</string>
+    <string name="no_googlemaps_available">No se ha podido lanzar la app de Google Maps :(</string>
+    <string name="venues_intro">Los espacios más emblemáticos de esta ciudad patrimonio se visten de fiesta en un festival particular en el que además de buena música, poder disfrutar de un entorno inigualable</string>
+    <string name="bands_intro">Un festival participativo con más de 140 grupos actuando en calles y plazas del Casco Histórico de Alcalá, Patromonio de la Humanidad</string>
+    <string name="hashtag_alcalasuena">#AlcalaSuena</string>
+    <string name="minutes">minutos</string>
+
+
+    <string name="meet_the_place">Conoce el lugar</string>
+    <string name="gigs">Conciertos</string>
+    <string name="venue">Escenario</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro0">¡A punto de empezar el festival más importante de Alcalá! ¿Preparad@?\n\nSi quieres potenciar todavía mas tu experiencia, sigue esta breve introducción para conocer lo que puedes hacer con esta APP...</string>
+    <string name="intro1">Conoce toda la programación actualizada de conciertos en cada día y despliega el panel lateral para filtrar por los estilos de música que mas te gustan...</string>
+    <string name="intro2">¡Haz tu propia programación de conciertos!\nPulsa en la estrella roja de cada uno para guardarlos como favoritos y cuando quieras ver sólo los tuyos, pulsa en la estrella blanca de la barra superior.\nPodrás además mandarlos a tus amig@s por la app que elijas ;) ...</string>
+    <string name="intro3">En la sección de Mapa podrás ver geolocalizado cada escenario del festival y pulsando el marcador verás su descripción básica y en enlace para indicarte el camino...\nNo te vayas a perder :P</string>
+    <string name="intro4">Navega por el resto de secciones para tener toda la información de Bandas y Escenarios...\nQue la disfrutes ;)\n\n¡Nos vemos en el #AlcalaSuena!</string>
+    <string name="how_to_arrive">Cómo llegar</string>
+    <string name="about_app">Sobre la app</string>
+    <string name="insula_coworking">Ínsula Coworking</string>
+
+    <string name="text_about_insula">Esta aplicación de Android y la web interactiva www.alcalasuena.es ha sido desarrollada gracias a la iniciativa y colaboración de un grupo de personas de la Ínsula Coworking, un espacio compartido de trabajo y emprendimiento en la Calle Mayor de Alcalá
+        \n\nAdemás de informáticos y diseñadores, somos unos apasionados de la buena música y la cultura de nuestra ciudad, así que sin más compartimos con vosotr@s este proyecto y ¡a disfrutar del festival!.
+
+    </string>
+    <string name="joseba_info">Joseba Saenz de Navarrete\nDesarrollador backend\nChaotic Kingdoms</string>
+    <string name="jaime_info">Jaime Pérez Dans\nDiseñador web\nIntroarte S.L.</string>
+    <string name="vicente_info">Vicente Molina Martínez\nDiseñador gráfico\nMr. MadBar</string>
+    <string name="julio_info">Julio Berzal Carrascosa\nDesarrollador Android\nTriskel Apps</string>
+    <string name="meet_us">Conócenos</string>
+    <string name="telegram_channel">Canal de Telegram</string>
+    <string name="news_channel">Canal de noticias</string>
+    <string name="import_link_text">Manda este enlace a tus amigos para que marquen automáticamente tus favoritos y podáis ir juntos a los conciertos ;)\n\n%s</string>
+    <string name="download_app_text">( Si todavía no tienen la app diles que la descarguen pasándoles este link: %s )</string>
+    <string name="add_favs_events">Añadir conciertos favoritos</string>
+    <string name="add">¡Añadir!</string>
+    <string name="no_thanks">No, gracias</string>
+    <string name="new_version">¡Nueva versión!</string>
+    <string name="later">Mas tarde</string>
+    <string name="update">Actualizar</string>
+    <string name="see_github_repositories">Ver repositorios en GitHub</string>
+    <string name="hello_excl">¡Hola!</string>
+    <string name="stay_in_app">Ya que estoy, me quedo</string>
+    <string name="follow_link">Seguir enlace</string>
+    <string name="funny_text_user_enter_with_wrong_link">El enlace que quieres ver tienes que abrirlo desde un navegador. Esta app solo recibe enlaces para añadir favoritos.\n\nEn cualquier caso, ¡un gusto tenerte por aquí! ;)\n\nElige qué quieres hacer</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="download_app_text_2">¡Bájate gratis la app para Android del Festival #AlcalaSuena!\n\n%s</string>
+    <string name="news">Noticias</string>
+    <string name="share_band">Compartir banda</string>
+    <string name="send_band_text">¡Echa un ojo a esta banda!\n\n%s</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="next_events">Próximos eventos:</string>
+    <string name="app_under_construction">Esta app está evolucionando. En breve actualizaremos con más conciertos y mejores funciones ;)</string>
+    <string name="august">agosto</string>
+    <string name="wednesday_abrev">MIÉ</string>
+    <string name="thursday_abrev">JUE</string>
+    <string name="september_abrev">sep</string>
+    <string name="august_abrev">ago</string>
+    <string name="loading_data">Cargando datos...</string>
+    <string name="about_buen_plan_ferias">#UnBuenPlanParaFerias</string>
+    <string name="paloma_concerts">Conciertos de la Paloma</string>
+    <string name="ferias_2017">Ferias 2017</string>
+
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:background="#f4f4f4">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="1"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/img_luna_plan_ferias" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="#fff" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/btn_menu_bands"
+                style="@style/LinearMenu">
+
+                <ImageView
+                    style="@style/ImageMenuIcon"
+                    android:src="@mipmap/ic_menu_bands"/>
+                <TextView
+                    style="@style/BtnMenu"
+                    android:text="@string/bands" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_menu_venues"
+                style="@style/LinearMenu">
+
+                <ImageView
+                    style="@style/ImageMenuIcon"
+                    android:src="@mipmap/ic_menu_venues"/>
+                <TextView
+                    style="@style/BtnMenu"
+                    android:text="@string/venues" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btn_menu_map"
+                style="@style/LinearMenu">
+
+                <ImageView
+                    style="@style/ImageMenuIcon"
+                    android:src="@mipmap/ic_menu_map"/>
+                <TextView
+                    style="@style/BtnMenu"
+                    android:text="@string/map" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_menu_news"
+                style="@style/LinearMenu">
+
+                <ImageView
+                    style="@style/ImageMenuIcon"
+                    android:src="@mipmap/ic_news"/>
+                <TextView
+                    style="@style/BtnMenu"
+                    android:text="@string/news" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_menu_about"
+                style="@style/LinearMenu">
+
+                <ImageView
+                    style="@style/ImageMenuIcon"
+                    android:src="@mipmap/ic_menu_info2"/>
+                <TextView
+                    style="@style/BtnMenu"
+                    android:text="@string/about_buen_plan_ferias" />
+
+            </LinearLayout>
+
+            <View style="@style/SeparatorHorizontal.Grey" />
+            <View style="@style/XpansorVert" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_developed"
+                    style="@style/TextBase.Bold"
+                    android:text="@string/developed_by_insula"
+                    android:layout_below="@+id/img_logo_insula"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:padding="5dp"
+                    android:gravity="center_horizontal"/>
+
+                <LinearLayout
+                    android:id="@+id/btn_about_insula"
+                    style="@style/LinearMenu">
+
+                    <ImageView
+                        style="@style/ImageMenuIcon"
+                        android:src="@mipmap/logo_bullet"/>
+                    <TextView
+                        style="@style/BtnMenu"
+                        android:text="@string/about_app" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey_dark_general"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/btn_logo_mahou"
+                    style="@style/ImageLogo"
+                    android:src="@mipmap/logo_mahou"
+                    android:tag="http://www.mahou.es/"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/btn_logo_alcalasuena"
+                    style="@style/ImageLogo"
+                    android:padding="6dp"
+                    android:src="@mipmap/img_logo_alcalasuena"
+                    android:tag="http://www.alcalasuena.es/"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/btn_logo_alcalaesmusica"
+                    style="@style/ImageLogo"
+                    android:padding="11dp"
+                    android:src="@mipmap/img_logo_alcalaesmusica"
+                    android:tag="http://www.alcalaesmusica.org/" />
+
+                <ImageView
+                    android:id="@+id/btn_logo_ayto_alcala"
+                    style="@style/ImageLogo"
+                    android:padding="5dp"
+                    android:src="@mipmap/img_logo_ayto_alcala"
+                    android:tag="http://ayto-alcaladehenares.es/" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

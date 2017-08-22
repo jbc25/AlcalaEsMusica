@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_general"
+    tools:context="org.alcalaesmusica.app.ui.program.ProgramActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/img_skyline"
+            android:layout_marginTop="55dp"
+            android:alpha="0.3"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/logo_plan_ferias_3"
+            android:layout_marginTop="30dp"
+            android:alpha="0.5" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.0"
+        android:background="@color/color_general" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <android.support.v4.widget.DrawerLayout
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/content_program" />
+
+            <fragment
+                android:id="@+id/menu_fragment"
+                class="org.alcalaesmusica.app.ui.menu.MenuFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                tools:layout="@layout/fragment_menu" />
+
+            <fragment
+                android:id="@+id/filter_bands_fragment"
+                class="org.alcalaesmusica.app.ui.filter.FilterBandsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginLeft="20dp"
+                tools:layout="@layout/fragment_filter_bands" />
+
+        </android.support.v4.widget.DrawerLayout>
+
+
+        <!--<android.support.design.widget.BottomNavigationView-->
+        <!--android:id="@+id/navigation"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:background="?android:attr/windowBackground"-->
+        <!--app:menu="@menu/navigation"-->
+        <!--android:visibility="gone"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_new_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey_dark_general"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="7dp"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/TextBase.White"
+            android:layout_weight="1"
+            android:text="@string/new_version" />
+
+        <TextView
+            android:id="@+id/btn_update_new_version"
+            style="@style/TextBase.White"
+            android:background="@drawable/background_pressed_custom"
+            android:padding="5dp"
+            android:text="@string/update"
+            android:textAllCaps="true"
+            android:textColor="@color/tab_selected"/>
+
+        <TextView
+            android:id="@+id/btn_hide_new_version"
+            style="@style/TextBase.White"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/background_pressed_custom"
+            android:padding="5dp"
+            android:text="@string/later"
+            android:textAllCaps="true" />
+
+
+    </LinearLayout>
+</RelativeLayout>
